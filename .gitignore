@@ -1,0 +1,25 @@
+# Ignore the private key file (.pem)
+terraform-airflow.pem
+
+# Ignore Terraform state files (contains sensitive info such as resource IDs, secrets, etc.)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore auto-generated plan files
+*.tfplan
+
+# Ignore any potential logs, crash logs, or diagnostic output files
+*.log
+crash.log
+
+# Ignore temporary or local Terraform directories and files
+.terraform/
+.terraform.lock.hcl
+
+# Exclude compiled files (if any are generated)
+*.out
+*.exe
+*.dll
+
+# Ignore Mac OS system files (optional but common when working on MacOS)
+.DS_Store
