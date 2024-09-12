@@ -6,7 +6,7 @@ This project demonstrates the deployment of an end-to-end ETL (Extract, Transfor
 
 ## Infrastructure Components
 
-![ETL Pipeline Architecture](architecture.png)
+![ETL Pipeline Architecture](architecturenew.png)
 
 ### VPC and Networking
 - Terraform provisions a custom VPC with public subnets across multiple availability zones.
